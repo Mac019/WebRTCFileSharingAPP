@@ -1,0 +1,59 @@
+*{
+    text-align: center;
+
+}
+#messages {
+    margin-top: 50px;
+}
+
+#fileInput {
+    margin-bottom: 10px;
+}
+
+.header{
+    height:200px;
+    width: 2000px;
+    display:flex;
+    background-color: brown;
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    height:200px;
+    width:1700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#sendFile{
+    height: 50px;
+    width: 150px;;
+    background-color: rgb(61, 144, 13);
+    border-radius: 50px;
+    box-shadow: 5px 10px rgb(12, 23, 5);
+    color:aliceblue;
+}
+
+#fileInput{
+    background-color: black;
+    color:aliceblue;
+}
+
+#messages {
+    width: 1700px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.download-link {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px solid black;
+    color:black;
+    font-size: 50px; /* Adjust font size as needed */
+}
+

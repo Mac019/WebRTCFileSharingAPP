@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC File Sharing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header"><h1> Web RTC File Sharing APP</h1></div> 
+    <div class="button">
+        <input type="file" id="fileInput" multiple webkitdirectory>
+        <button id="sendFile">Press This Button To Send Files</button>
+    </div>
+<div class="bod">
+   <h1> Download Link Here:</h1>
+    <div id="messages"></div> 
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
